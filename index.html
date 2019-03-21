@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>site évalué dev mobile</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+    <link rel="icon" href="img/icone.jpg"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="screen" href="css/style.css" />
+
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/script.js"> </script>
+      <!--<script> alert("dsf") </script>-->
+   </head>
+
+   <body>
+   	<header>
+       <img class="img_mobile" id="menu_tel" name="menu_tel" src="img/menu_tel.png"> <!--sert juste a mettre l'image du menu pour tel -->
+   		<img src="img/logo.jpg" id="logo" class="img_mobile">
+
+    <!--sert juste a mettre l'image du menu pour tel -->
+      <a href="tel: 0980980930" id="lien_de_merde"><img class="img_mobile" id="img_chiante" src="img/icone_tel.png"></a>
+      <div id="nav">
+   			<a href="#nav" id="accueil" name="accueil" class="bordure_droite"> Accueil </a>
+   			<a href="#article" id="biere" name="biere" class="bordure_droite"> La bière </a>
+   			<a href="#formulaire" id="contact" name="contact"> Contact </a>
+   			<input type="text" id="recherche" placeholder="Rechercher"> 
+   		</div>
+      
+   	</header>
+
+   	<article>
+   		<img src="img/bandeau2.jpg" id="bandeau_bulle">
+
+   		<div id="texte">
+   			<h1> Notre association </h1>
+   			<p> Novitates autem si spem adferunt, ut tamquam in herbis non fallacibus fructus appareat, non sunt illae quidem repudiandae, vetustas tamen suo loco conservanda; maxima est enim vis vetustatis et consuetudinis. Quin in ipso equo, cuius modo feci mentionem, si nulla res impediat, nemo est, quin eo, quo consuevit, libentius utatur quam intractato et novo. Nec vero in hoc quod est animal, sed in iis etiam quae sunt inanima, consuetudo valet, cum locis ipsis delectemur, montuosis etiam et silvestribus, in quibus diutius commorati sumus.  <span> En résumé ce site est un placement de produit non rénumérée </span>
+   			</p>
+   		</div>
+
+   		<div id="ligne_img">
+            <div class="lignetab">
+      			<div class="imgAvecNom">
+      				<img src="img/kwak.jpg" class="boison" >
+      				<h3> Kwak </h3>
+      				<p> Biere belge de la brasserie Bosteels, 8,4 % d'alcool </p>
+                  <a href="http://bestbelgianspecialbeers.be/fr" target="blanc"> En savoir plus</a>
+                 
+      				<!-- voir pour faire un truc qui lie la suite-->
+      			</div>
+      			<div class="imgAvecNom">
+      				<img src="img/skoll.jpg" class="boison">
+      				<h3> skoll </h3>
+      				<p> biere blonde de la brasserie Carlsberg (Danemark) a 6 degré</p>
+                  <a href="https://www.beertime.fr/skoll" target="blanc"> En savoir plus </a>
+
+   <!--Découvrez Skøll au cocktail bière unique : un mélange de Vodka et Agrumes et mettre la mythologie nordique -->
+      			</div>
+            </div>
+            <div class="lignetab">
+      			<div class="imgAvecNom">
+      				<img src="img/biereNoel.jpg" class="boison">
+      				<h3> La bière de noel </h3>
+      				<p> Juste un conseil: ne l'acheté pas, elle est horrible </p>
+                  <a href="https://fandelidl.fr/catalogue/2016.11.02.deluxe/8077,6-bieres-de-Noel" target="blanc"> En savoir plus </a>
+      				<!-- mais c est noel donc vous pouvez oublier mon conseil -->
+      			</div>
+      			<div class="imgAvecNom">
+      				<img src="img/cidre.jpg" class="boison">
+      				<h3> Le cidre </h3>
+      				<p> C'est hors sujet mais le cidre c'est bon </p>
+                  <a href="https://www.cidre-kerne.bzh/" target="blanc"> En savoir plus </a>
+      			</div>
+            </div>
+   		</div>
+
+
+         <div id="carteetform" >
+            <div id="carte" class="demiblock">
+               <h2>Rejoignez-nous partout en France</h2>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160862.8132648288!2d1.7292166752906104!3d50.95180212913171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f75d7f1e363%3A0xacbed9e08cd279f4!2sCalais!5e0!3m2!1sfr!2sfr!4v1551361587216" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div id="formulaire" class="demiblock">
+               <h2>Incrivez vous</h2>
+                  <div form='formligne'>
+                     <input type="text" name="prenom" class="petit" id="prenom" placeholder="Prénom">
+                     <input type="text" name="nom" class="petit" id="nom" placeholder="Nom">
+                  </div>
+                  <div class="formligne">
+                     <input type="date" name="date_de_naissance" class="petit" id="date_de_naissance" placeholder="Date de naissance">
+                     <input type="text" name="ville" id="ville" class="petit" placeholder="Ville de naissance">
+                  </div>
+                  <input type="email" name="mail" id="mail" placeholder="Addresse email">
+                  <input type="file" name="photo" id="photo" placeholder="Photo" accept="image/*,.jpg, image/*.png" capture="user">
+                  <textarea name="message" id="message" placeholder="Message"></textarea>
+                  <div id="div_bouton">
+                    <input type="button" id="button" value="Envoyer">
+                  </div>
+               
+            </div>
+         </div>
+
+   	</article>
+
+   	<footer>
+   		<p> Veriepe Antoine
+   	</footer>
+
+   </body>
+   </html>
