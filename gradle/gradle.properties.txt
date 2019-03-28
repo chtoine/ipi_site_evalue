@@ -1,0 +1,8 @@
+systemProp.http.proxyHost=10.10.28.5
+system.Prop.http.proxyPort=3128
+systemProp.http.proxyUser=veriepe.antoine
+systemProp.http.proxyPassword=motdepasse
+systemProp.https.proxyHost=10.10.28.5
+systemProp.httpsproxyPort=3128
+systemProp.https.proxyUser=veriepe.antoine
+systemProp.https.proxyPassword=motdepasse
